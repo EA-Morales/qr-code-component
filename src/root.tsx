@@ -14,7 +14,7 @@ export default () => {
         />
         <title>Frontend Mentor | QR code component</title>
       </head>
-      <body class='py-[85px] px-7 bg-Light-gray'>
+      <body class='pt-[85px] px-7 min-h-screen bg-Light-gray'>
         <div class='bg-white rounded-2xl px-4 pt-4'>
           <img
             class='rounded-[9px]'
@@ -23,22 +23,28 @@ export default () => {
             width={288}
             alt='qr code'
           />
-          <article class='mt-7 text-center leading-4'>
-            <h1 class='font-bold text-2xl text-Dark-blue'>
+          <article class='mt-7 text-center leading-4 p-2 pb-10'>
+            <h1 class='font-bold text-2xl text-Dark-blue mb-5'>
               Improve your front-end skills by building projects
             </h1>
-            <p>
+            <p class='text-Grayish-blue text-lg'>
               Scan the QR code to visit Frontend Mentor and take your coding
               skills to the next level
             </p>
           </article>
         </div>
-        <div class='attribution'>
+        <div class='bottom-0 text-sm text-center mt-5'>
           Challenge by{" "}
           <a href='https://www.frontendmentor.io?ref=challenge' target='_blank'>
             Frontend Mentor
           </a>
-          . Coded by <a href='#'>Your Name Here</a>.
+          . Coded with 💖 by{" "}
+          <a
+            target='_blank'
+            href='https://www.frontendmentor.io/profile/EA-Morales'>
+            L3GOL4S
+          </a>
+          .
         </div>
       </body>
     </>
