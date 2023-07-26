@@ -14,8 +14,8 @@ export default () => {
         />
         <title>Frontend Mentor | QR code component</title>
       </head>
-      <body class='pt-[85px] px-7 min-h-screen bg-Light-gray'>
-        <div class='bg-white rounded-2xl px-4 pt-4'>
+      <body class='pt-[85px] sm:pt-[151px] px-7 min-h-screen bg-Light-gray'>
+        <div class='bg-white mx-auto rounded-2xl px-4 pt-4 max-w-[320px]'>
           <img
             class='rounded-[9px]'
             src='/public/images/image-qr-code.png'
